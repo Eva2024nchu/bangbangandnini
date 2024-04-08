@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body header img {
+}
+header {
+    border-radius: 53px;
+    background-color: #FFEEEF;
+    text-align: center;
+    text-shadow: 2px 2px #EED8D8;
+    text-transform: none;
+    color: #915354;
+}
+nav {
+    text-align: center;
+}
+main {
+}
+footer {
+}
+.container {
+    width: 1028px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav a:link  {
+    color: #871054;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #D34797;
+    text-decoration: underline;
+}
+.heroimg {
+    height: 800px;
+    background-image: url(image/banner.JPG);
+    background-position: center center;
+    background-size: cover;
+}
+article h3 {
+    background-color: #FFE0E1;
+    border-radius: 20px 50px 50px 20px;
+    height: 35px;
+    padding-left: 10px;
+    color: #8E3559;
+    line-height: 35px;
+}
+article h4 {
+    height: 25px;
+    color: #924C4D;
+    background-color: #FFEBEC;
+    border-radius: 20px;
+    padding-left: 15px;
+    line-height: 25px;
+}
