@@ -33,7 +33,7 @@ nav a:hover {
 }
 .heroimg {
     height: 800px;
-    background-image: url(image/banner.JPG);
+    background-image: url(image/banner.png);
     background-position: center center;
     background-size: cover;
 }
