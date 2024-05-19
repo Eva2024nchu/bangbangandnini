@@ -58,13 +58,3 @@ article h4 {
     padding-left: 15px;
     line-height: 25px;
 }
-ul {
-     list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 25%;
-  overflow: auto;
-}
