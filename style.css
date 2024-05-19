@@ -2,10 +2,11 @@
 /* CSS Document */
 
 body header img {
-    width: 1850px;
+    max-width: 1850px;
+    margin: 0 auto;
 }
 header {
-    width: 1280px;
+    max-width: 1280px;
     border-radius: 53px;
     background-color: #FFEEEF;
     text-align: center;
@@ -36,7 +37,7 @@ nav a:hover {
 .heroimg {
     background-image: url(image/banner.png);
     background-position: center center;
-    background-size: 1280px;
+    background-size: auto ;
 }
 article h3 {
     background-color: #FFE0E1;
