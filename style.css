@@ -82,3 +82,6 @@ nav li a {
 nav li a:hover {
   background-color: #111;
 }
+.position {
+    position: fixed;
+}
