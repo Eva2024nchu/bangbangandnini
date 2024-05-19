@@ -30,7 +30,7 @@ nav a:link  {
     text-decoration: none;
 }
 nav a:hover {
-    color: #D34797;
+    background-color: #D34797;
     text-decoration: underline;
 }
 .heroimg {
