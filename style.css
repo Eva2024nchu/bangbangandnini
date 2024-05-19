@@ -34,7 +34,7 @@ nav a:hover {
     text-decoration: underline;
 }
 .heroimg {
-    height: 1849px;
+    width: 1280px;
     background-image: url(image/banner.png);
     background-position: center center;
     background-size: cover;
