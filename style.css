@@ -36,8 +36,10 @@ nav a:hover {
 }
 .heroimg {
     background-image: url(image/banner.png);
-    background-position: center center;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position:relative;
 }
 article h3 {
     background-color: #FFE0E1;
