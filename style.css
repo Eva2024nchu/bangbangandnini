@@ -30,7 +30,7 @@ nav a:link  {
     text-decoration: none;
 }
 nav a:hover {
-    background-color: #D34797;
+    color: #D34797;
     text-decoration: underline;
 }
 .heroimg {
@@ -79,6 +79,7 @@ nav li a {
 
 nav li a:hover {
   background-color: #111;
+  width: 8em;
 }
 #menu {
   position: fixed;
