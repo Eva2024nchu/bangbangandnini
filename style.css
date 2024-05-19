@@ -37,7 +37,7 @@ nav a:hover {
 .heroimg {
     background-image: url(image/banner.png);
     background-position: center center;
-    background-size: auto ;
+    background-size: cover;
 }
 article h3 {
     background-color: #FFE0E1;
