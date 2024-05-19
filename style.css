@@ -34,10 +34,9 @@ nav a:hover {
     text-decoration: underline;
 }
 .heroimg {
-    width: 1280px;
     background-image: url(image/banner.png);
     background-position: center center;
-    background-size: cover;
+    background-size: width="1280";
 }
 article h3 {
     background-color: #FFE0E1;
