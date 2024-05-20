@@ -112,3 +112,7 @@ div.desc {
   text-align: center;
   background-color: #ffffff;
 }
+div {
+    width: auto'
+    height: auto;
+}
