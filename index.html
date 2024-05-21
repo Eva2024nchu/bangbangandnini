@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
   <title>邦邦和妮妮</title>
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -56,6 +57,39 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+<style>
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
 </style>
 </head>
@@ -122,6 +156,16 @@ div.desc {
 	
 <article>
  <P> <h3 id="old work">早期作品</h3>
+<div class="container">
+  <img src="https://github.com/Eva2024nchu/bangbangandnini/blob/main/illustrator/celebraction/20210209.jpg?raw=true" alt="Avatar" class="image">
+  <div class="overlay">幽游白書-藏馬</div>
+</div>
+
+<div class="container">
+  <img src="https://github.com/Eva2024nchu/bangbangandnini/blob/main/illustrator/celebraction/tartaglia.jpg?raw=true" alt="Avatar" class="image">
+  <div class="overlay">原神-達達利亞</div>
+</div>
+
     <iframe width="560" height="315" src="https://www.youtube.com/embed/kZRFonVCrso?si=NK911HDHDBbERYXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <br>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/AfjQGmXCSCo?si=UP9QMD02hOgRpBVC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
