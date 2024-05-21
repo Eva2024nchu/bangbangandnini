@@ -97,6 +97,11 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 600px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  height: 350px;
+  margin-top: 20px;
 }
 
 div.gallery:hover {
@@ -114,6 +119,4 @@ div.desc {
   background-color: #ffffff;
 }
 div {
-    width: auto;
-    height: auto;
 }
