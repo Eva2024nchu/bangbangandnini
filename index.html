@@ -108,6 +108,40 @@ body {
   vertical-align: middle;
   width: 100%;
 }
+.comic {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .comic {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 </style>
 </head>
   <body>
@@ -135,10 +169,12 @@ body {
       <div>
       <h3 id="comic">漫畫</h3>
       <ol>
-        <li>開學篇</li>
-        <li>生活篇</li>
-        <li>課堂篇</li>
-        <li>季節篇</li>
+<div class="container">
+  <img src="bangbangandnini/comic1.png" alt="icecream" class="comic" style="width:100%">
+  <div class="middle">
+    <div class="instagram"><a target="_blank" href="https://www.instagram.com/bangbang_nini/p/C6cOBHZBaVw/">View</a></div>
+  </div>
+</div>
       </ol>
       </div>
 <h3 id="illustration">插畫</h3>
