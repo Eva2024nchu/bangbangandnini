@@ -132,3 +132,17 @@ nav li a:hover {
   -o-transition: all 300ms ease-in-out 0s;
   transition: all 300ms ease-in-out 0s;
 }
+.box1:hover .desc {
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+.box2:hover .desc {
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+.gallery .box1:hover {
+  transform: translateY(-5px);
+}
+.gallery .box2:hover {
+  transform: translateY(-5px);
+}
