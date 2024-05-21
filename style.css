@@ -92,7 +92,7 @@ nav li a:hover {
   width: 8em;
   margin-top: -2.5em;
 }
-.gallery .box1 {
+gallery box1 {
   flex: 1;
   background-image: url(illustrator/celebraction/happychildrensday.jpg);
   background-size: cover;
@@ -105,7 +105,7 @@ nav li a:hover {
   -o-transition: all 300ms ease-in-out 0s;
   transition: all 300ms ease-in-out 0s;
 }
-.gallery .desc {
+gallery desc {
   background-color: #292929;
   opacity: 0;
   color: #FFFFFF;
@@ -119,7 +119,7 @@ nav li a:hover {
   -o-transition: all 500ms ease-in-out 0s;
   transition: all 500ms ease-in-out 0s;
 }
-.gallery .box2 {
+gallery box2 {
   flex: 1;
   background-image: url(image/happymothersday.png);
   background-size: cover;
@@ -132,17 +132,17 @@ nav li a:hover {
   -o-transition: all 300ms ease-in-out 0s;
   transition: all 300ms ease-in-out 0s;
 }
-.box1:hover .desc {
+box1:hover desc {
   -webkit-opacity: 1;
   opacity: 1;
 }
-.box2:hover .desc {
+box2:hover desc {
   -webkit-opacity: 1;
   opacity: 1;
 }
-.gallery .box1:hover {
+gallery box1:hover {
   transform: translateY(-5px);
 }
-.gallery .box2:hover {
+gallery box2:hover {
   transform: translateY(-5px);
 }
