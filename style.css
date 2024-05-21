@@ -92,7 +92,7 @@ nav li a:hover {
   width: 8em;
   margin-top: -2.5em;
 }
-gallery .box1 {
+.gallery .box1 {
   flex: 1;
   background-image: url(illustrator/celebraction/happychildrensday.jpg);
   background-size: cover;
@@ -118,4 +118,17 @@ gallery .box1 {
   -webkit-transition: all 500ms ease-in-out 0s;
   -o-transition: all 500ms ease-in-out 0s;
   transition: all 500ms ease-in-out 0s;
+}
+.gallery .box2 {
+  flex: 1;
+  background-image: url(image/happymothersday.png);
+  background-size: cover;
+  margin: 5px;
+  border-radius: 10px;
+  background-position: center center;
+  align-items: flex-end;
+  display: flex;
+  -webkit-transition: all 2300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
 }
